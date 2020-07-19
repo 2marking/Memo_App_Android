@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="detailMemoItem"
+            type="com.example.appchallenge_lineplus_android.ui.register.viewmodel.DetailImageMemo" />
+    </data>
+    <LinearLayout
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp">
+        <ImageView
+            app:bindCurrentImage="@{detailMemoItem.imagePath}"
+            android:id="@+id/modify_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"/>
+    </LinearLayout>
+</layout>

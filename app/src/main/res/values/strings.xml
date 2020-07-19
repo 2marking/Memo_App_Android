@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">AppChallenge_LINEPLUS_Android</string>
+    <string name="testImagePath">https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/LINE_logo.svg/400px-LINE_logo.svg.png</string>
+    <string name="customImageSelect">사진 선택</string>
+    <string name="customImageDelete">삭제</string>
+    <string name="customImageSelectDone">완료</string>
+    <string name="customImageSelectCount">완료(%1$d/%2$d)</string>
+    <string name="customImageIndex">%1$d/%2$d</string>
+    <string name="customImageCancel">취소</string>
+    <string name="customImageDeleteDone">사진이 삭제되었습니다.</string>
+    <string name="customImageConfirmToDelete">삭제 하시겠어요?</string>
+    <string name="customImageMessageOk">확인</string>
+    <string name="customImageMessageCancel">취소</string>
+    <string name="customImageAll">모든 이미지</string>
+    <string name="customImageCount">%1$d</string>
+    <string name="customImageSelectMaxCount"> %1$d 개 선택 가능</string>
+    <string name="fileProviderPath">com.example.appchallenge_lineplus_android.fileprovider</string>
+    <string name="inputImageUrlMessage">이미지 URL을 입력해 주세요</string>
+    <string name="inputImageUrlErrorMessage">URL 이미지 추가 완료, 오류시 URL 확인해주세요</string>
+    <string name="internetConnectionError">인터넷 연결 상태를 확인해주세요</string>
+    <string name="insertMemoSuccess">메모 추가 성공</string>
+    <string name="modifyMemoSuccess">메모 수정 성공</string>
+    <string name="deleteMemoSuccess">메모 삭제 성공</string>
+    <string name="inputTitleMessage">제목을 입력해 주세요</string>
+    <string name="inputMainTextMessage">본문을 입력해 주세요</string>
+    <string name="requestPermissionMessageReadStorage">읽기 권한이 필요</string>
+    <string name="requestPermissionMessageCamera">카메라 권한이 필요</string>
+    <string name="completeMessageDeleteImageAll">전체 이미지 삭제 완료</string>
+    <string name="completeMessageDeleteSelectImage">선택 이미지 삭제 완료</string>
+</resources>

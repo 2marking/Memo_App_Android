@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="modifyMemoItem"
+            type="com.example.appchallenge_lineplus_android.ui.modify.data.ModifyImageMemo" />
+    </data>
+    <FrameLayout
+        android:layout_width="96dp"
+        android:layout_height="96dp">
+        <androidx.appcompat.widget.AppCompatToggleButton
+            android:id="@+id/toggleCheckImage"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:background="@drawable/photo_checkbox_memo"
+            android:layout_gravity="right"
+            android:textOn="@null"
+            android:textOff="@null"/>
+        <ImageView
+            app:bindCurrentImage="@{modifyMemoItem.imagePath}"
+            android:id="@+id/modify_image"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"/>
+    </FrameLayout>
+
+</layout>
